@@ -145,9 +145,10 @@ fieldset {
 }
 
 .button-filtres {
+    height: 50px;
     justify-content: center;
     border: 2px solid #D9D9D9;
-    border-radius: 25px;
+    border-radius: 35px;
     gap: 10px;
     font-size: 17px;
     font-weight: 700;
@@ -212,6 +213,7 @@ fieldset {
     align-items: center;
     gap: 10px;
     font-weight: 400;
+    margin-bottom: 20px;
 }
 .section-title {
     margin: 0;
