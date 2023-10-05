@@ -44,6 +44,10 @@ nav {
     justify-content: center;
 }
 
+.align {
+    align-items: center;
+}
+
 table {
     margin: 0px auto;
 }
@@ -101,6 +105,10 @@ fieldset {
     height: 49px;  
 }
 
+.placeholder {
+    font-size: 18px;
+}
+
 ::-webkit-input-placeholder { 
     color: black; 
     font-weight: 700;
@@ -114,6 +122,8 @@ fieldset {
     padding-left: 18px;
     border-radius: 15px 0px 0PX 15px ;
     background-color: #D9D9D9;
+    color: #000000;
+    font-size: 18px;
 }
 
 
@@ -123,36 +133,79 @@ fieldset {
     background-color: #0065FC;
     color: white;
     font-weight: 700;
+    padding: 15px 16px 15px 16px;
+
 }
 
 .filtres {
     gap: 10px;
-    align-items: center;    
+    align-items: center; 
+    margin-bottom: 10px;  
+    margin-top: 10px; 
 }
 
 .button-filtres {
-    align-items: center;
+    justify-content: center;
     border: 2px solid #D9D9D9;
     border-radius: 25px;
-    padding: 4px, 19px, 4px, 19px;
-    width: auto;
-    height: auto;
+    gap: 10px;
     font-size: 17px;
     font-weight: 700;
     background-color: white;
-    padding-right: 20px;
 }
+
+.button-filtres-eco {
+    width: 167px;
+    height: 50px;
+}
+
+.button-filtres-fam {
+    width: 131px;
+    height: 50px;
+}
+
+.button-filtres-rom {
+    width: 164px;
+    height: 50px;
+}
+
+.button-filtres-feu {
+    width: 161px ;
+    height: 50px;
+}
+
+.fam {
+    font-size: 22px ;
+}
+
+.rom {
+    font-size: 18.33px ;
+}
+
+.feu {
+    font-size: 20.08px;
+}
+
+
+
+
+.text-filtres {
+    justify-content: center;
+    align-items: center;
+}
+
 .button-filtres:hover {
     background-color: #DEEBFF;
 }
 .button-i {
-
-    width: 22px;
-    height: 16.26px;
+    align-items: center;
+    width: 4px;
+    height: 10px;
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 15px;
     padding-bottom: 15px;
+    
 }
 
 .icone-info {
@@ -214,7 +267,7 @@ fieldset {
 .no-marg {
     position: relative;
     right: 15px; 
-    margin-bottom: 25px;
+    margin-bottom: 10px;
 
 }
 
