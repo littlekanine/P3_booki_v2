@@ -411,6 +411,10 @@ footer h2 {
     padding-left: 20px;
 }
 
+footer h3 {
+    font-size: 16px;
+}
+
 ol {
     list-style:none ;
     padding-left: 20px;
@@ -433,6 +437,11 @@ footer .hebergements {
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
+    body {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
     .hebergements-and-populaires {
         flex-direction: column;
     }
@@ -466,29 +475,54 @@ footer .hebergements {
         font-size: 13px;
     }
 
-    .activite {
-        width: 195,5px ;
-
-    }
-    
-    /* Peut_être ?  */
-
-    /* .pouet {
+    .h2-filtre {
         position: relative;
         bottom: 50px;
-        left: 85px;
-        margin-top: 20px;
+        left: 0px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+
     }
 
-    .filtres {
+    .button-filtres {
         position: relative;
         right: 85px;
+        margin-top: 30px;
+    }
 
-    } */
+    .fieldset {
+        margin-bottom: 30px;
+    }
 
+    .activite {
+        width: 100%;
+        }
 
+    .activite-card  { 
+        justify-content: center;
+        margin-right: 50px;
+               
+    }
+
+    .activite-card .card {
+        width: 193.5px;
+        height: 270px; 
+    
+    }
+
+    .activite-card .card img {
+        width: 193.5px;
+        height: 200px;
+    }
+
+    footer .A-propos {
+        margin-right: 190px;
 }
 
+    footer .hebergements {
+        margin-right: 50px;
+    }
+}
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
     /* ... */
