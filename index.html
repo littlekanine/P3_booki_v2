@@ -14,17 +14,17 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
-<body>
+<body class="flex">
   
     <div class="main-container">
         <header>
-            <nav>
+            <nav class="flex">
                 <div class="logo flex">
                     <img src="images/logo/Booki.png" alt="logo Booki" title="Logo Booki">
                 </div>
                 <div class="liens flex">
-                    <a href="#Hébergement" class="lien">Hébergement</a>
-                    <a href="#Activités" class="lien">Activités</a>
+                    <a href="#Hébergement" class="lien flex">Hébergement</a>
+                    <a href="#Activités" class="lien-2 flex">Activités</a>
                  </div>
             </nav>
         </header>
@@ -35,7 +35,7 @@
         <table>
             <form method="get" action="#">
                 <div>
-                    <fieldset class="fieldset flex no-marg">
+                    <fieldset class="fieldset flex no-marg desktop">
                         <i class="fa-solid fa-location-dot flex border ping justify-center"></i> 
                         <input type="text" placeholder="Marseille, France" class="border placeholder">
                         <input type="button" value="Rechercher" id="button" id class="button-recherche placeholder" placeholder="#" >
@@ -44,15 +44,28 @@
             </form>
         </table>
 
-                <!-- FORMULAIRE -->
+        <table>
+            <form method="get" action="#">
+                <div>
+                    <fieldset class="fieldset flex no-marg phone">
+                        <i class="fa-solid fa-location-dot flex border ping justify-center"></i> 
+                        <input type="text" placeholder="Marseille, France" class="border placeholder">
+                        <i class="fa-solid fa-magnifying-glass button-magnifying"></i>
+                    </fieldset>
+                </div>
+            </form>
+        </table>
 
-        <div class="flex filtres">
-            <h2 class="h2-filtre">Filtres</h2>
+                <!-- FORMULAIRE -->
+            <div class="flex formulaire">
+            <h2 class="flex">Filtres</h2>
+            <div class="flex filtres">
                 <a href="#" type="button" class="button-filtres button-filtres-eco flex" ><i class="fa-solid fa-money-bill-wave flex justify-center align"></i><div class="flex text-filtres ">Économique</div></a>
                 <a href="#" type="button" class="button-filtres button-filtres-fam flex" ><i class="fa-solid fa-person flex justify-center align fam"></i><div class="flex text-filtres ">Familial</div></a>
                 <a href="#" type="button" class="button-filtres button-filtres-rom flex" ><i class="fa-solid fa-heart flex justify-center align rom"></i><div class="flex text-filtres"> Romantique</div></a>
                 <a href="#" type="button" class="button-filtres button-filtres-feu flex" ><i class="fa-solid fa-fire flex justify-center align feu"></i><div class="flex text-filtres">Nos pépites</div></a>
         </div>
+    </div>
 
         <div class="flex icone-info">
             <i class="fa-solid fa-info flex border-info justify-center"></i><p>Plus de 500 logements sont disponibles dans cette ville</p>
@@ -63,8 +76,8 @@
         <main>
 
         <div class="hebergements-and-populaires flex">
-                <section class="hebergements ">
-                        <h2 id="hebergements">Hébergement à Marseille</h2>
+            <section class="hebergements">
+                    <h2 id="hebergements">Hébergement à Marseille</h2>
 
                     <div class="hebergements-card">    
                         <a href="#">
