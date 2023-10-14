@@ -113,7 +113,8 @@ table {
 fieldset {
     border-style: none;
     width: 377px;
-    height: 49px;  
+    height: 49px; 
+    padding-left: 0 ; 
 }
 
 .placeholder {
