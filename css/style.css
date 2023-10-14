@@ -700,6 +700,9 @@ footer .hebergements {
 
     .hebergements-and-populaires .hebergements {
         background-color: unset;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
     }
 
     .hebergements {
@@ -730,6 +733,7 @@ footer .hebergements {
         flex-direction: column;
         align-items: center;
         width: 335px;
+        gap: 15px;
     }
 
     .hebergements-card a {
@@ -772,26 +776,27 @@ footer .hebergements {
     /* FOOTER */
 
     .list {
-        display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
         width: 375px;
         }
 
     .list h2 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 0;
+        padding-left: 20;
+    }
+
+    .footer-h2 {
+        width: 335px;
+    }
+
+    footer .hebergements {
+        width: 263.67px;
     }
 
     ol {
-        width: 335px;
+        width: 263.67px;
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 0;
+        padding-left: 20px;
+
     }
 }
