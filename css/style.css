@@ -336,13 +336,11 @@ fieldset {
 /****** Populaires ***********/
 .populaires {
     width: 32%;
-    display: flex;
     flex-direction: column;
 
 }
 
 .populaires-cards {
-    display: flex;
     flex-direction: column;
     gap: 30px;
     margin-top: 30px;
@@ -369,7 +367,6 @@ fieldset {
 .populaires-cards .card-content {
     width: 67%;
     padding-left: 15px;
-    display: flex;
     flex-direction: column;
     justify-content: space-between;
     box-sizing: border-box;
@@ -491,7 +488,6 @@ footer .hebergements {
     }
 
     .populaires-cards {
-        display: flex;
         flex-direction: row;
         justify-content: space-between;
     }
@@ -670,13 +666,6 @@ footer .hebergements {
 
     /* FORMULAIRE END */
 
-    .hebergements-title h2 {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
     .border-info {
         width: 30px;
     }
@@ -702,17 +691,21 @@ footer .hebergements {
     .hebergements-and-populaires .hebergements {
         background-color: unset;
         padding: 0;
-        justify-content: center;
-        align-items: center;
     }
 
     .hebergements {
         order: 2;
         display: flex;
         flex-direction: column; 
+        justify-content: center;
+        align-items: center;
         width: 375px;
         margin-top: 20px;
 
+    }
+
+    .hebergements-title {
+        margin-right: 40px;
     }
 
     .populaires {
@@ -732,7 +725,6 @@ footer .hebergements {
     .hebergements-card {
         display: flex;
         flex-direction: column;
-        align-items: center;
         width: 335px;
         gap: 15px;
     }
@@ -747,7 +739,6 @@ footer .hebergements {
     }
 
     .activite {
-        display: flex;
         flex-direction: column;
         width: 375px;
         margin-top: 30px;
@@ -787,6 +778,7 @@ footer .hebergements {
 
     .footer-h2 {
         width: 335px;
+        padding: 0;
     }
 
     footer .hebergements {
