@@ -553,7 +553,7 @@ footer .hebergements {
         justify-content: center;
         padding: 30px;
         gap: 10px;
-        width: 121.09;
+        width: 121.09px;
         height: 79px;
     }
 
@@ -768,7 +768,7 @@ footer .hebergements {
         }
 
     .list h2 {
-        padding-left: 20;
+        padding-left: 20px;
     }
 
     .footer-h2 {
