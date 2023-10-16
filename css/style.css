@@ -420,9 +420,10 @@ table {
 /****** FOOTER*******/
 
 footer {
+    width: 100%;
     margin-top: 75px ;
     background-color:#F2F2F2;
-    gap: 30px;
+    justify-content:flex-start ;
 }
 
 footer h2 {
@@ -435,19 +436,16 @@ footer h3 {
 
 ol {
     list-style:none ;
-    padding-left: 20px;
+    justify-content: flex-start;
 }
 
 li {
     padding-top: 20px;
 }
 
-footer .A-propos {
-    margin-right: 330px;
-}
-
-footer .hebergements {
-    margin-right: 230px;
+.liste {
+    margin-right: 20%;
+    
 }
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
@@ -521,12 +519,8 @@ footer .hebergements {
         height: 200px;
     }
 
-    footer .A-propos {
-        margin-right: 190px;
-}
-
-    footer .hebergements {
-        margin-right: 50px;
+    .liste {
+        margin-right: 10%;
     }
 }
 /* Small devices (phones, less than 768px) */
@@ -687,6 +681,8 @@ footer .hebergements {
         flex-direction: column;
     }
 
+    /* HEBERGEMENT */
+
     .hebergements-and-populaires .hebergements {
         background-color: unset;
         padding: 0;
@@ -702,6 +698,28 @@ footer .hebergements {
         margin-top: 20px;
 
     }
+    .hebergements-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 335px;
+        gap: 15px;
+    }
+
+    .hebergements-card a {
+        display: flex;
+        width: 335px;
+    }
+
+    .card-hebergement {
+        width: 100%;
+    }
+
+    .hebergements-title {
+        margin-right: 50px;
+    }
+
+/* POPULAIRE */
 
     .populaires {
         width: 375px;
@@ -717,21 +735,7 @@ footer .hebergements {
         margin-top: 20px;
     }
 
-    .hebergements-card {
-        display: flex;
-        flex-direction: column;
-        width: 335px;
-        gap: 15px;
-    }
-
-    .hebergements-card a {
-        display: flex;
-        width: 335px;
-    }
-
-    .card-hebergement {
-        width: 100%;
-    }
+    /* ACTIVITE */
 
     .activite {
         flex-direction: column;
