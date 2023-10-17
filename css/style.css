@@ -698,6 +698,11 @@ li {
         margin-top: 20px;
 
     }
+
+    .hebergements h2 {
+        margin-right: 50px;
+    }
+
     .hebergements-card {
         display: flex;
         flex-direction: column;
@@ -713,10 +718,6 @@ li {
 
     .card-hebergement {
         width: 100%;
-    }
-
-    .hebergements-title {
-        margin-right: 50px;
     }
 
 /* POPULAIRE */
