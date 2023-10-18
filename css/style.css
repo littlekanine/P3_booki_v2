@@ -355,10 +355,6 @@ table {
 
 /* <!-- Activités A MARSEILLE --> */
 
-.activite {
-    margin-left: 25px;
-}
-
 .activite-card {
     display: grid;
     grid-template-columns:1fr 1fr 1fr 1fr;
@@ -721,6 +717,7 @@ li {
         justify-content: center;
         align-items: center;
         width: 315px;
+        margin: 0;
     }
 
     .activite-card a {
