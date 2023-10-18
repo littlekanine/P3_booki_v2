@@ -539,10 +539,13 @@ li {
 
     .logo {
         justify-content: center;
-        padding: 30px;
-        gap: 10px;
-        width: 121.09px;
-        height: 79px;
+    }
+
+    .logo img {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        width: 61.09px;
+        height: 19px;
     }
 
     .liens{
@@ -596,8 +599,8 @@ li {
 
     .fieldset {
         width: 335px;
+        margin-left: 25px;
         justify-content: center;
-        margin-left: 25px ;
         padding: 0;
     }
 
