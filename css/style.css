@@ -38,7 +38,7 @@ table {
     justify-content: space-between;
 }
 
-.margin- {
+.margin {
     margin-bottom: 30px;
 }
 
@@ -553,7 +553,7 @@ li {
     /* HEADER END  */
 
     .hebergements-title {
-        margin-left: 10px ;
+        margin-left: 20px ;
     }
 
     /* TABLE */
@@ -699,6 +699,10 @@ li {
     }
 
     /* ACTIVITE */
+
+    .title-activit {
+        margin-left: 30px;
+    }
 
     .activite {
         flex-direction: column;
