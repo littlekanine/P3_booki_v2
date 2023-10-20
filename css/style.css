@@ -154,6 +154,10 @@ table {
 
 /***** FORMULAIRE *****/
 
+.formulaire {
+    margin-top: 20px;
+}
+
 .formulaire h2 {
     margin-right: 20px;
 }
@@ -705,7 +709,7 @@ li {
     /* ACTIVITE */
 
     .title-activit {
-        margin-right: 80px;
+        margin-left: 20px;
     }
 
     .activite {
