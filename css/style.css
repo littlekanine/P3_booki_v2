@@ -430,10 +430,10 @@ li {
 
     /* WE NEED THIS MARGIN ? */
 
-    body {
-        margin-left: 50px;
-        margin-right: 50px;
-    }
+        /* body {
+            margin-left: 50px;
+            margin-right: 50px;
+        } */
     /* ********* */
 
     .formulaire{
@@ -493,13 +493,11 @@ li {
 }
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
-    .flex {
-        flex-direction: column;
-    }
 
     body {
         justify-content: center;
         align-items: center;
+        flex-direction: row;
         margin : 0 auto ;
     }
         /* HEADER */
@@ -641,10 +639,12 @@ li {
 
     .main-container {
         max-width: 375px;
+        padding: 0;
     }
 
     .hebergements-and-populaires section {
         border-radius: 0;
+        padding-left: 0;
     }
 
     .hebergements-and-populaires {
@@ -656,20 +656,27 @@ li {
     .hebergements-and-populaires .hebergements {
         background-color: unset;
         padding: 0;
+        margin-left: 20px;
     }
 
     .hebergements {
+        align-items: center;
         order: 2;
         display: flex;
         flex-direction: column; 
         justify-content: center;
         align-items: center;
-        width: 375px;
+        width: 335px;
         margin-top: 20px;
+        margin: 0;
+    }
+
+    .card-phone {
+        flex-direction: column;
     }
 
     .hebergements h2 {
-        margin-right: 50px;
+        padding-right: 40px;
     }
 
     .hebergements-card {
@@ -686,7 +693,7 @@ li {
     }
 
     .card-hebergement {
-        width: 100%;
+        width: 325px;
     }
 
 /* POPULAIRE */
@@ -696,13 +703,21 @@ li {
         border-radius: 0;
         margin-top:20px ;
     }
+
+    .section-title {
+        margin-left: 20px;
+    }
+
     .populaires-cards {
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width:335px;
+        margin-left: 15px;
+        width:325px;
         gap: 20px;
         margin-top: 20px;
+    }
+
+    .card {
+        width: 335px;
     }
 
     /* ACTIVITE */
@@ -731,9 +746,17 @@ li {
         margin: 0;
     }
 
+    .activite .card img {
+        height: 141px;
+    }
+
     .activite-card a {
         display: flex;
         width: 100%;
+    }
+
+    .activite-card .card {
+        height: 200px;
     }
 
     /* MAIN END */
