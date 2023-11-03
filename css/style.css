@@ -1,17 +1,15 @@
 /****** General ***********/
 * {
     font-family: 'Raleway', sans-serif;
-
+    margin: 0;
+    
 }
 
-body {
-    width: 100%;
-}
 
 .main-container {
     width: 1340px;
-    padding-left: 50px;
-    padding-right: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 :root {
@@ -28,8 +26,16 @@ body {
     display: flex;
 }
 
+.marg {
+    margin-right: 10px;
+}
+
 .flex-column {
     flex-direction: column;
+}
+
+.flex-row {
+    flex-direction: row;
 }
 
 .justify-center {
@@ -75,13 +81,13 @@ a {
 
 nav {
     color: #0065FC;
-    margin-top: 25px;
-    margin-bottom: 50px;
+    height: 50px;
 }
 
 .logo {
     width: 19px;
     height: 19px;
+    padding-top: 20px;
 }
 
 .liens {
@@ -90,11 +96,11 @@ nav {
 }
 
 .lien:hover {
-    text-decoration: overline;
+  border-top: #0065FC solid 2px;
 }
 
 .lien-2:hover {
-    text-decoration: overline;
+    border-top: #0065FC solid 2px;
 }
 
 /***** HEADER END *****/
@@ -156,6 +162,7 @@ table {
 
 .formulaire {
     margin-top: 20px;
+    align-items: center;
 }
 
 .formulaire h2 {
@@ -235,52 +242,32 @@ table {
 .hebergements-and-populaires section {
     background-color: var(--main-bg-color);
     border-radius: 20px;
-    padding: 30px;
+    padding: 15px;
     box-sizing: border-box;
+    flex-wrap: wrap;
 }
 /***** HEBERGEMENTS *****/
 
 .hebergements {
-    margin-right: 40px;
     background-color: var(--main-bg-color);
+    width: 67%;
+    flex-wrap: wrap;
+}
+
+.hebergements h2 {
+    padding : 0px
 }
 
 .hebergements img {
-    object-fit: cover;
+    object-fit:cover;
     width: 100%;
     height: 124px;
     border-radius: 20px 20px 0px 0px;
     border: 5px;
 }
 
-.hebergements-card {
-    display: grid;
-    grid-template-columns: 250.33px 250.33px 250.33px;
-    gap: 40px ;
-}
-
-.hebergements .txt-card {
-    position: relative;
-    bottom: 15px;
-    height: 40px;
-    padding-left: 10px;
-}
-
-.hebergements .txt-card h3 {
-    position: relative;
-    font-size: 16px;
-    padding-top: 5px;
-}
-
-.hebergements .txt-card p  {
-    position: relative;
-    bottom: 10px;
-    margin: 0;
-    
-}
-
-.hebergements .hebergements-rating {
-    padding-left: 10px;
+.txt-card {
+    margin-bottom: 10px;
 }
 
 .card-hebergement {
@@ -288,16 +275,26 @@ table {
     border-radius: 20px;
     padding: 5px;
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
-    width: 250px;
     height: 207.25px;
+}
+
+.hebergements_1 {
+    gap: 30px;
+    
+}
+
+.hebergements_1 a {
+    width: 100%;
 }
 
 .card img {
     object-fit: cover;
+    /* width: 100%; */
 }
 
 .card-title {
     font-size: 16px;
+    margin-top: 10px;
 }
 
 .euro {
@@ -328,6 +325,11 @@ table {
     font-size: 22px;
 }
 
+.populaires {
+    margin-left: 30px;
+    flex-wrap: wrap;
+}
+
 .populaires-cards {
     gap: 30px;
     margin-top: 30px;
@@ -341,7 +343,6 @@ table {
 }
 
 .populaires-cards .card-content {
-    width: 67%;
     padding-left: 15px;
     box-sizing: border-box;
 
@@ -363,6 +364,10 @@ table {
 
 /* <!-- Activités A MARSEILLE --> */
 
+.title-activit {
+    margin-bottom: 20px;
+}
+
 .activite-card {
     display: grid;
     grid-template-columns:1fr 1fr 1fr 1fr;
@@ -378,7 +383,6 @@ table {
     border-radius: 20px;
     padding: 5px;
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
-    width: 100%;
     height: 439px;
 }
 
@@ -391,6 +395,7 @@ table {
 
 .activite h3 {
     margin-left: 20px;
+    margin-top: 10px;
 }
 
 /****** FOOTER*******/
@@ -430,14 +435,23 @@ li {
 
     /* WE NEED THIS MARGIN ? */
 
-        /* body {
+        .main-container {
+            width: 100%;
             margin-left: 50px;
             margin-right: 50px;
-        } */
+        }
     /* ********* */
 
     .formulaire{
         display: inline;
+    }
+
+    .hebergements {
+        width: 100%;
+    }
+
+    .hebergements_1 a {
+        width: 100%;
     }
 
     .hebergements-and-populaires {
@@ -447,6 +461,7 @@ li {
     .populaires {
         width: 100%;
         margin-top: 50px;
+        margin-left: 0;
     }
 
     .populaires-cards {
@@ -468,7 +483,8 @@ li {
 
     .activite {
         width: 100%;
-        }
+        justify-content: center;
+    }
 
     .activite-card  { 
         justify-content: center;
@@ -496,6 +512,11 @@ li {
 
     body {
         justify-content: center;
+    }
+
+    .main-container {
+        width: 100%;
+        justify-content: center;
         align-items: center;
         flex-direction: row;
         margin : 0 auto ;
@@ -514,8 +535,6 @@ li {
     }
 
     .logo img {
-        padding-top: 30px;
-        padding-bottom: 30px;
         width: 61.09px;
         height: 19px;
     }
@@ -526,7 +545,7 @@ li {
     }
 
     .lien {
-        width: 187.5px;
+        
         justify-content: center;
         border-bottom: 2px solid #f2f2f2;
         width: 187.5px;
@@ -535,21 +554,20 @@ li {
 
     .lien-2 {
         justify-content: center;
-        width: 187.5px;
         border-bottom: 2px solid #f2f2f2;
         width: 187.5px;
         padding-bottom:15px ;
     }
 
     .lien:hover {
-        text-decoration: none;
+        border-top: none;
         border-bottom: 2px solid;
         width: 187.5px;
         padding-bottom:15px 
     }
 
     .lien-2:hover {
-        text-decoration: none;
+        border-top: none;
         border-bottom: 2px solid;
         width: 187.5px;
         padding-bottom:15px ;
@@ -569,10 +587,12 @@ li {
         
     }
 
-    .fieldset {
-        width: 335px;
-        margin-left: 25px;
-        justify-content: center;
+    form .phone {
+        width: 100%;
+        margin-left: 10px;
+    }
+
+    .fieldset .phone {
         padding: 0;
     }
 
@@ -587,6 +607,7 @@ li {
 
     .phone {
         display: flex;
+        justify-content: center;
     }
 
     .button-magnifying {
@@ -608,12 +629,14 @@ li {
 
     .formulaire h2 {
         margin-left: 30px;
+        margin-top: 30px;
+        margin-bottom: 30px;
     }
 
     .filtres {
-        display: grid;
-        grid-template-columns: 162.5px 162.5px;
-        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        
     }
 
     .filtres button {
@@ -638,7 +661,7 @@ li {
     /* MAIN */
 
     .main-container {
-        max-width: 375px;
+        /* max-width: 375px; */
         padding: 0;
     }
 
@@ -671,6 +694,10 @@ li {
         margin: 0;
     }
 
+    .hebergements_1 {
+        flex-direction: column;
+    }
+
     .card-phone {
         flex-direction: column;
     }
@@ -699,7 +726,7 @@ li {
 /* POPULAIRE */
 
     .populaires {
-        width: 375px;
+        width: 100%;
         border-radius: 0;
         margin-top:20px ;
     }

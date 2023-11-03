@@ -27,7 +27,7 @@
                  </div>
             </nav>
         </header>
-
+ <main class="width-full">
         <div class="hebergements-title">
             <h2>Trouvez votre hébergement pour des vacances de rêves</h2>
             <p class="margin">En plein centre-ville ou en pleine nature</p>
@@ -35,36 +35,34 @@
         
         <div>
             <form>
-                <div>
                     <fieldset class="fieldset flex desktop">
                         <i class="fa-solid fa-location-dot flex border ping justify-center"></i> 
                         <input placeholder="Marseille, France" class="border placeholder">
                         <input type="button" value="Rechercher" id="button" class="button-recherche placeholder" >
                     </fieldset>
-                </div>
             </form>
         </div>
 
-        <div class="flex">
             <form>
-                <div>
                     <fieldset class="fieldset flex phone">
                         <i class="fa-solid fa-location-dot flex border ping justify-center"></i> 
                         <input  placeholder="Marseille, France" class="border placeholder">
                         <i class="fa-solid fa-magnifying-glass button-magnifying"></i>
                     </fieldset>
-                </div>
             </form>
-        </div>
 
                 <!-- FORMULAIRE -->
             <div class="flex formulaire">
                 <h2 class="flex">Filtres</h2>
                     <div class="flex filtres align-center">
-                        <a href="#" class="button-filtres button-filtres-eco flex justify-center" ><i class="fa-solid fa-money-bill-wave flex justify-center align-center fam "></i><div class="flex text-filtres justify-center align-center">Économique</div></a>
+                        <div class="flex">
+                        <a href="#" class="button-filtres button-filtres-eco flex justify-center marg" ><i class="fa-solid fa-money-bill-wave flex justify-center align-center fam "></i><div class="flex text-filtres justify-center align-center">Économique</div></a>
                         <a href="#"  class="button-filtres button-filtres-fam flex justify-center" ><i class="fa-solid fa-person flex justify-center align-center fam"></i><div class="flex text-filtres justify-center align-center">Familial</div></a>
-                        <a href="#"  class="button-filtres button-filtres-rom flex justify-center" ><i class="fa-solid fa-heart flex justify-center align-center rom"></i><div class="flex text-filtresjustify-center align-center"> Romantique</div></a>
+                        </div>
+                        <div class="flex">
+                        <a href="#"  class="button-filtres button-filtres-rom flex justify-center marg" ><i class="fa-solid fa-heart flex justify-center align-center rom"></i><div class="flex text-filtresjustify-center align-center"> Romantique</div></a>
                         <a href="#"  class="button-filtres button-filtres-feu flex justify-center" ><i class="fa-solid fa-fire flex justify-center align-center feu"></i><div class="flex text-filtres justify-center align-center">Nos pépites</div></a>
+                    </div>
                     </div>
             </div>
 
@@ -74,18 +72,17 @@
 
         <!-- /****** Hebergements ***********/ -->
         
-        <main class="width-full">
+       
 
-        <div class="hebergements-and-populaires width-full space-between flex">
-            <section class="hebergements width-full">
-                <h2 class= "flex" id="Hébergement">Hébergement à Marseille</h2>
-                <div class="flex width-full flex-column gap"> 
-                    <div class="card-phone flex gap justify-center">
+        <div class="hebergements-and-populaires flex">
+            <section class="hebergements flex flex-column gap">
+                <h2 class= "flex" id="Hébergement">Hébergement à Marseille</h2> 
+                <div class="hebergements_1 flex">
                         <a href="#">
-                            <article class="card-hebergement">
+                            <article class="card-hebergement flex flex-column">
                                 <img src="./images/hebergements/fred-kleber.jpg" alt="Image de la chambre d'hotel">
                                     <div class="txt-card">
-                                        <h3>Hôtel Du Port</h3>
+                                        <h3 class="card-title flex ">Hôtel Du Port</h3>
                                         <p>Nuit à partir de 96<span class="euro">€</span></p>
                                     </div>
                                     <div class="hebergements-rating">
@@ -98,7 +95,7 @@
                             </article>
                         </a>
                         <a href="#">
-                            <article class="card-hebergement">
+                            <article class="card-hebergement flex flex-column">
                                 <img src="./images/hebergements/febrian-zakaria.jpg" alt="Image de la chambre d'hotel">
                                     <div class="txt-card">
                                         <h3 class="card-title flex ">Hôtel Chez Amina</h3>
@@ -114,7 +111,7 @@
                             </article>
                         </a>
                         <a href="#">
-                            <article class="card-hebergement">
+                            <article class="card-hebergement flex flex-column">
                                 <img src="./images/hebergements/reisetopia.jpg" alt="Image de la chambre d'hotel">
                                     <div class="txt-card">
                                         <h3 class="card-title flex ">Hôtel Les mouettes</h3>
@@ -128,11 +125,11 @@
                                         <i class="fa-xs fa-solid fa-star neutral-star" aria-hidden="true"></i>
                                     </div>
                             </article>
-                        </a>    
-                    </div>
-                    <div class=" card-phone flex gap justify-center">
+                        </a>  
+                    </div> 
+                    <div class="hebergements_1 flex">
                         <a href="#">
-                            <article class="card-hebergement">
+                            <article class="card-hebergement flex flex-column">
                                 <img src="./images/hebergements/annie-spratt.jpg" alt="Image de la chambre d'hotel">
                                     <div class="txt-card">
                                         <h3 class="card-title">Hôtel De la mer</h3>
@@ -148,7 +145,7 @@
                             </article>
                         </a>
                         <a href="#">
-                            <article class="card-hebergement">
+                            <article class="card-hebergement flex flex-column">
                                 <img src="./images/hebergements/marcus-loke.jpg" alt="Image de la chambre d'hotel">
                                     <div class="txt-card">
                                         <h3 class="card-title flex ">Auberge La Canebière</h3>
@@ -164,7 +161,7 @@
                             </article>
                         </a>
                         <a href="#">
-                            <article class="card-hebergement">
+                            <article class="card-hebergement flex flex-column">
                                 <img src="./images/hebergements/nicate-lee.jpg" alt="Image de la chambre d'hotel">
                                     <div class="txt-card">
                                         <h3 class="card-title flex ">Auberge Le Panier</h3>
@@ -181,7 +178,6 @@
                         </a>
                     </div>
                     <a href="#" class="euro flex">Afficher plus</a>
-                </div>
             </section>
 
                 <!-- /****** Populaires ***********/ -->
@@ -289,25 +285,25 @@
                 <footer class="list flex width-full">
                     <div class="liste">
                         <h2 class="A-propos">A propos</h2>
-                            <ol>
-                                <li>Foctionnement du site</li>
-                                <li>Conditions générales</li>
-                                <li>Données et confidentialité</li>
-                            </ol>
+                        <ol>
+                            <li>Foctionnement du site</li>
+                            <li>Conditions générales</li>
+                            <li>Données et confidentialité</li>
+                        </ol>
                     </div>
                     <div class="liste">
                         <h2>Nos hébergements</h2>
-                            <ol>
-                                <li>Charte qualité</li>
-                                <li>Proposer votre hôtel</li>
-                            </ol>
+                        <ol>
+                            <li>Charte qualité</li>
+                            <li>Proposer votre hôtel</li>
+                        </ol>
                     </div>
                     <div> 
                         <h2>Assistance</h2>
-                            <ol>
-                                <li>Centre d'aide</li>
-                                <li>Nous contacter</li>
-                            </ol>
+                        <ol>
+                            <li>Centre d'aide</li>
+                            <li>Nous contacter</li>
+                        </ol>
                     </div>
                </footer>
         </main>
