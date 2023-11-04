@@ -416,7 +416,7 @@ footer h3 {
 
 ol {
     list-style:none ;
-    justify-content: flex-start;
+    padding-left: 20px;
 }
 
 li {
@@ -505,6 +505,10 @@ li {
 
     .liste {
         margin-right: 10%;
+    }
+
+    ol {
+        padding-left: 20px;
     }
 }
 /* Small devices (phones, less than 768px) */
