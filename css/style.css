@@ -672,7 +672,7 @@ li {
 
     .hebergements-and-populaires section {
         border-radius: 0;
-        padding-left: 0;
+        
     }
 
     .hebergements-and-populaires {
@@ -693,14 +693,18 @@ li {
         display: flex;
         flex-direction: column; 
         justify-content: center;
-        align-items: center;
-        width: 335px;
-        margin-top: 20px;
+        width: 100%;
+        margin-top: 20px;   
         margin: 0;
     }
 
     .hebergements_1 {
         flex-direction: column;
+        width: 100%;
+    }
+
+    .hebergements_1 a {
+        width: 100%;
     }
 
     .card-phone {
@@ -726,7 +730,7 @@ li {
     }
 
     .card-hebergement {
-        width: 325px;
+        width: 90%;
     }
 
 /* POPULAIRE */
@@ -766,7 +770,7 @@ li {
 
     .activite {
         flex-direction: column;
-        width: 375px;
+        width: 100%;
         margin-top: 30px;
     }
 
@@ -780,7 +784,7 @@ li {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 315px;
+        width: 90%;
         margin: 0;
     }
 
@@ -803,11 +807,19 @@ li {
 
     .list {
         flex-direction: column;
-        width: 375px;
+        width: 100%;
         }
 
     .list h2 {
         padding-left: 20px;
+    }
+
+    .liste {
+        padding-left: 20px;
+    }
+
+    ol {
+        padding-bottom: 20px;
     }
 
     .footer-h2 {
