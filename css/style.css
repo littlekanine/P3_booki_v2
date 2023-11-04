@@ -639,6 +639,11 @@ li {
         
     }
 
+    .form_1 {
+        width: 100%;
+        justify-content: center;
+    }
+
     .filtres button {
         justify-content: center;
         align-items: center;
@@ -738,13 +743,18 @@ li {
     .populaires-cards {
         flex-direction: column;
         margin-left: 15px;
-        width:325px;
+        width:100%;
         gap: 20px;
         margin-top: 20px;
     }
 
     .card {
-        width: 335px;
+        width: 100%;
+    }
+
+    .populaires-cards a {
+        width: 90%;
+        margin-bottom: 20px;
     }
 
     /* ACTIVITE */
