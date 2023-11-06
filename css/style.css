@@ -92,7 +92,15 @@ nav {
 
 .liens {
     gap:15px;
-    
+    height: 19px;
+}
+
+.lien {
+    padding-top: 10px;
+}
+
+.lien-2 {
+    padding-top: 10px;
 }
 
 .lien:hover {
@@ -591,18 +599,14 @@ li {
         
     }
 
-    form .phone {
-        width: 100%;
-        margin-left: 10px;
-    }
-
-    .fieldset .phone {
-        padding: 0;
+    fieldset .phone {
+        justify-content: center;
     }
 
     .placeholder {
         width:100%;
         justify-content: center;
+        align-items: center;
     }
 
     .desktop {
