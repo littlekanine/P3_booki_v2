@@ -561,28 +561,28 @@ li {
         justify-content: center;
         border-bottom: 2px solid #f2f2f2;
         width: 187.5px;
-        padding-bottom:15px ;
+        padding-bottom:30px ;
     }
 
     .lien-2 {
         justify-content: center;
         border-bottom: 2px solid #f2f2f2;
         width: 187.5px;
-        padding-bottom:15px ;
+        padding-bottom:30px ;
     }
 
     .lien:hover {
         border-top: none;
         border-bottom: 2px solid;
         width: 187.5px;
-        padding-bottom:15px 
+        padding-bottom:30px 
     }
 
     .lien-2:hover {
         border-top: none;
         border-bottom: 2px solid;
         width: 187.5px;
-        padding-bottom:15px ;
+        padding-bottom:30px ;
     }
 
     /* HEADER END  */
@@ -594,9 +594,9 @@ li {
     /* TABLE */
     /* DISPLAY MAGNIFYING DESKTOP */
 
-    .fieldset .button-recherche {
-        display: none;
-        
+    fieldset {
+        margin: auto;
+        width: 70%;
     }
 
     fieldset .phone {
