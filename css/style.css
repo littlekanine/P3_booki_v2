@@ -256,14 +256,12 @@ table {
     border-radius: 20px;
     padding: 15px;
     box-sizing: border-box;
-    flex-wrap: wrap;
 }
 /***** HEBERGEMENTS *****/
 
 .hebergements {
     background-color: var(--main-bg-color);
     width: 67%;
-    flex-wrap: wrap;
 }
 
 .hebergements h2 {
@@ -704,7 +702,6 @@ li {
     }
 
     .hebergements {
-        align-items: center;
         order: 2;
         width: 100%;
         margin-top: 20px;   
@@ -747,7 +744,7 @@ margin-top: 20px;
     }
 
     .bold {
-        padding-right: 400px;
+        /* padding-right: 400px; */
     }
 
 
