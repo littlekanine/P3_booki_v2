@@ -509,6 +509,7 @@ li {
         justify-content: center;
         margin-right: 30px;
         margin-left: 30px;
+        height: 270px;
     }
 
     .activite-card .card {
