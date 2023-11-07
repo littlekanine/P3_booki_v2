@@ -50,6 +50,10 @@
     gap: 30px;
 }
 
+.bold {
+    font-weight: 700;
+}
+
 table {
     margin: 0px auto;
 }
@@ -488,14 +492,13 @@ li {
 
     .activite-card  { 
         justify-content: center;
-        margin-right: 50px;
-               
+        margin-right: 30px;
+        margin-left: 30px;
     }
 
     .activite-card .card {
         width: 100%;
-        height: 270px; 
-    
+        height: 270px;
     }
 
     .activite-card .card img {
@@ -716,7 +719,7 @@ li {
     }
 
     .hebergements h2 {
-        padding-right: 40px;
+        padding-right: 200px;
         margin-top: 20px;
     }
 
@@ -735,6 +738,10 @@ li {
 
     .card-hebergement {
         width: 90%;
+    }
+
+    .bold {
+        padding-right: 400px;
     }
 
 /* POPULAIRE */
