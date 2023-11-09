@@ -340,6 +340,7 @@ table {
 .populaires {
     margin-left: 30px;
     flex-wrap: wrap;
+    width: 34%;
 }
 
 .populaires-cards {
@@ -699,7 +700,7 @@ li {
     .hebergements-and-populaires .hebergements {
         background-color: unset;
         padding: 0;
-        margin-left: 20px;
+        padding-left: 20px;
     }
 
     .hebergements {
@@ -724,7 +725,7 @@ li {
 
     .hebergements h2 {
         padding-right: 200px;
-margin-top: 20px;
+        margin-top: 20px;
     }
 
     .hebergements-card {
